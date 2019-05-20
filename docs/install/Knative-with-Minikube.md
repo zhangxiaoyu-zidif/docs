@@ -156,6 +156,7 @@ see [Performing a Custom Knative Installation](./Knative-custom-install.md).
 
 1. Monitor the Knative components until all of the components show a `STATUS` of
    `Running`:
+   
    ```bash
    kubectl get pods --namespace knative-serving
    kubectl get pods --namespace knative-build
